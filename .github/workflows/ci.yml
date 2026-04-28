@@ -8,7 +8,7 @@ on:
 
 jobs:
   ci:
-    uses: YOUR_ORG/skillcareer-infra/.github/workflows/reusable-ci.yml@main
+    uses: SkillCareer/skillcareer/.github/workflows/reusable-ci.yml@main
     with:
       node_version: "18"
       image_name: "user-service"
